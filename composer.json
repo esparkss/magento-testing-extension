@@ -16,7 +16,7 @@
             "Esparkss\\Testing\\": ""
         }
     },
-    "minimum-stability": "dev-stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
 
     "repositories": [
