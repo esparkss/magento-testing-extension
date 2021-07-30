@@ -1,0 +1,29 @@
+{
+    "name": "esparkss/magento-testing-extension",
+    "description": "Testing Extension for Magento 2",
+    "type": "magento2-module",
+    "version": "1.2.4",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "~7.0.13|~7.1.0|~7.2.0|~7.3.0|~7.4.0",
+        "magento/framework": "~102.0.5"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Esparkss\\Testing\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "repositories": [
+    {
+      "type": "github",
+      "url": "https://github.com/esparkss/magento-testing-extension"
+    }
+  ]
+}
+
